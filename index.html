@@ -5,8 +5,15 @@
 
     <p>This is my first javascript</p>
 
+    <button>
+      click me
+
+    </button>
     <script>
-      window.alert("hello");
+      const btn = document.querySelector("button");
+       btn.addEventListener("click", function() {
+       window.alert("haha");
+      });
     </script>
   </body>
 </html>
